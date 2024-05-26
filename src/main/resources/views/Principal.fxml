@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="513.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PrincipalController">
    <children>
       <AnchorPane prefHeight="63.0" prefWidth="690.0" style="-fx-background-color: #8ebdb6;">
@@ -68,11 +67,6 @@
       <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="546.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/pdf-file-format_6795752.png" />
-         </image>
-      </ImageView>
-      <ImageView fx:id="salir" fitHeight="50.0" fitWidth="54.0" layoutX="626.0" layoutY="449.0" onMouseClicked="#salirEvent" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images/log-out_3596136.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="439.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
